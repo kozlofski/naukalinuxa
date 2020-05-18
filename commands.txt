@@ -1,0 +1,18 @@
+ 1401  cd 002_naukalinuxa/
+ 1402  git init
+ 1403  touch processes.txt
+ 1404  ps aux
+ 1405  ps aux > processes.txt 
+ 1406  cat processes.txt 
+ 1407  cp processes.txt copy.txt
+ 1408  ll
+ 1409  wc processes.txt 
+ 1410  wc processes.txt >> processes.txt 
+ 1411  tail processes.txt 
+ 1412  cat processes.txt | grep /bin
+ 1413  grep processes.txt /bin
+ 1414  grep /bin processes.txt
+ 1415  history
+ 1416  history | tail -14
+ 1417  history | tail -16
+ 1418  history | tail -18 >> commands.txt
